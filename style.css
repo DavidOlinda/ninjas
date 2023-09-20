@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(136, 132, 132), rgb(133, 133, 133));
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+a{
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+img#logomarca{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:link{
+    color:lightskyblue
+}
+a:lvisited{
+    color:black
+}
+a:hover{
+    color:blue
+}
+a:active{
+    color: green;
+}
+.nota{
+    color: black;
+    opacity: 0.5;
+    background-color: lightslategray;
+}
+p.nota strong{
+    color:red;
+}
+p.passo strong{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+p.passo em{
+    font-size: 24px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman' ;
+    text-align: justify;
+}
